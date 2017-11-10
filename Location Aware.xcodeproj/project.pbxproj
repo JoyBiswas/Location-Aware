@@ -14,6 +14,8 @@
 		CE8653A61FB5C7D000725C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8653A51FB5C7D000725C99 /* Assets.xcassets */; };
 		CE8653A91FB5C7D000725C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8653A71FB5C7D000725C99 /* LaunchScreen.storyboard */; };
 		CE8653B11FB5C9B400725C99 /* Bacground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8653B01FB5C9B400725C99 /* Bacground.jpg */; };
+		CE8653B81FB5E41000725C99 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8653B71FB5E41000725C99 /* CoreLocation.framework */; };
+		CE8653BA1FB5EE1D00725C99 /* MapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8653B91FB5EE1D00725C99 /* MapViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CE8653A81FB5C7D000725C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8653AA1FB5C7D000725C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8653B01FB5C9B400725C99 /* Bacground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bacground.jpg; sourceTree = "<group>"; };
+		CE8653B71FB5E41000725C99 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE8653B91FB5EE1D00725C99 /* MapViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8653B81FB5E41000725C99 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 			children = (
 				CE86539A1FB5C7D000725C99 /* Location Aware */,
 				CE8653991FB5C7D000725C99 /* Products */,
+				CE8653B61FB5E41000725C99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +64,57 @@
 		CE86539A1FB5C7D000725C99 /* Location Aware */ = {
 			isa = PBXGroup;
 			children = (
+				CE8653B51FB5E21D00725C99 /* Model */,
+				CE8653B41FB5E21500725C99 /* View */,
+				CE8653B31FB5E20800725C99 /* Controller */,
+				CE8653B21FB5E1DB00725C99 /* SupportingFiels */,
+			);
+			path = "Location Aware";
+			sourceTree = "<group>";
+		};
+		CE8653B21FB5E1DB00725C99 /* SupportingFiels */ = {
+			isa = PBXGroup;
+			children = (
 				CE86539B1FB5C7D000725C99 /* AppDelegate.swift */,
-				CE86539D1FB5C7D000725C99 /* ViewController.swift */,
-				CE86539F1FB5C7D000725C99 /* Main.storyboard */,
 				CE8653A51FB5C7D000725C99 /* Assets.xcassets */,
 				CE8653B01FB5C9B400725C99 /* Bacground.jpg */,
 				CE8653A71FB5C7D000725C99 /* LaunchScreen.storyboard */,
 				CE8653AA1FB5C7D000725C99 /* Info.plist */,
 				CE8653A21FB5C7D000725C99 /* Location_Aware.xcdatamodeld */,
 			);
-			path = "Location Aware";
+			name = SupportingFiels;
+			sourceTree = "<group>";
+		};
+		CE8653B31FB5E20800725C99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE86539D1FB5C7D000725C99 /* ViewController.swift */,
+				CE8653B91FB5EE1D00725C99 /* MapViewVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CE8653B41FB5E21500725C99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE86539F1FB5C7D000725C99 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CE8653B51FB5E21D00725C99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE8653B61FB5E41000725C99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8653B71FB5E41000725C99 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8653BA1FB5EE1D00725C99 /* MapViewVC.swift in Sources */,
 				CE8653A41FB5C7D000725C99 /* Location_Aware.xcdatamodeld in Sources */,
 				CE86539E1FB5C7D000725C99 /* ViewController.swift in Sources */,
 				CE86539C1FB5C7D000725C99 /* AppDelegate.swift in Sources */,
