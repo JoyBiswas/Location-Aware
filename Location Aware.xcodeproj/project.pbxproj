@@ -13,6 +13,7 @@
 		CE8653A41FB5C7D000725C99 /* Location_Aware.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE8653A21FB5C7D000725C99 /* Location_Aware.xcdatamodeld */; };
 		CE8653A61FB5C7D000725C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8653A51FB5C7D000725C99 /* Assets.xcassets */; };
 		CE8653A91FB5C7D000725C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8653A71FB5C7D000725C99 /* LaunchScreen.storyboard */; };
+		CE8653B11FB5C9B400725C99 /* Bacground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8653B01FB5C9B400725C99 /* Bacground.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE8653A51FB5C7D000725C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8653A81FB5C7D000725C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8653AA1FB5C7D000725C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8653B01FB5C9B400725C99 /* Bacground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bacground.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CE86539D1FB5C7D000725C99 /* ViewController.swift */,
 				CE86539F1FB5C7D000725C99 /* Main.storyboard */,
 				CE8653A51FB5C7D000725C99 /* Assets.xcassets */,
+				CE8653B01FB5C9B400725C99 /* Bacground.jpg */,
 				CE8653A71FB5C7D000725C99 /* LaunchScreen.storyboard */,
 				CE8653AA1FB5C7D000725C99 /* Info.plist */,
 				CE8653A21FB5C7D000725C99 /* Location_Aware.xcdatamodeld */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8653A91FB5C7D000725C99 /* LaunchScreen.storyboard in Resources */,
+				CE8653B11FB5C9B400725C99 /* Bacground.jpg in Resources */,
 				CE8653A61FB5C7D000725C99 /* Assets.xcassets in Resources */,
 				CE8653A11FB5C7D000725C99 /* Main.storyboard in Resources */,
 			);
